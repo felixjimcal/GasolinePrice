@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54e38765-4e44-4a2c-90bf-e8cfe2a3b46c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataCollector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/GasStation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GasolinePrice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GasolinePrice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataCollector.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,19 +21,43 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/DataCollector.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/DataCollector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-34">
-              <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+            <state relative-caret-position="204">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#224#225#0" expanded="true" />
+                <element signature="e#260#261#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/DataCollectorShould.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#238#239#0" expanded="true" />
+                <element signature="e#282#283#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/GasStation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -40,14 +71,33 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>dependencies</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/Home.java" />
         <option value="$PROJECT_DIR$/src/DataCollector.java" />
+        <option value="$PROJECT_DIR$/src/DataCollectorShould.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/DataCollectorShould.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GasStation.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DataCollectorShould.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DataCollector.java" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectFrameBounds">
@@ -63,6 +113,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -70,17 +122,60 @@
               <item name="GasolinePrice" type="b2602c69:ProjectViewProjectNode" />
               <item name="GasolinePrice" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="GasolinePrice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GasolinePrice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GasolinePrice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GasolinePrice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GasolinePrice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GasolinePrice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GasolinePrice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GasolinePrice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GasolinePrice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GasolinePrice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GasolinePrice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -94,7 +189,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.DataCollectorShould.HaveConnectivity">
     <configuration name="DataCollector" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="DataCollector" />
       <module name="GasolinePrice" />
@@ -102,6 +197,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DataCollectorShould.HaveAURLToConnect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GasolinePrice" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DataCollectorShould" />
+      <option name="METHOD_NAME" value="HaveAURLToConnect" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataCollectorShould.HaveConnectivity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GasolinePrice" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DataCollectorShould" />
+      <option name="METHOD_NAME" value="HaveConnectivity" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.DataCollector" />
+      <item itemvalue="JUnit.DataCollectorShould.HaveAURLToConnect" />
+      <item itemvalue="JUnit.DataCollectorShould.HaveConnectivity" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DataCollectorShould.HaveConnectivity" />
+        <item itemvalue="JUnit.DataCollectorShould.HaveAURLToConnect" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -114,45 +240,125 @@
       <option name="presentableId" value="Default" />
       <updated>1555687544361</updated>
     </task>
+    <task id="LOCAL-00001" summary="Data Collector, first approach">
+      <created>1555691432519</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1555691432519</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="DataCollectorShould_HaveAURLToConnect - 2019.04.19 at 19h 05m 48s.xml">
+      <configuration name="DataCollectorShould.HaveAURLToConnect" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DataCollectorShould_HaveConnectivity - 2019.04.19 at 19h 14m 51s.xml">
+      <configuration name="DataCollectorShould.HaveConnectivity" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DataCollectorShould_HaveAURLToConnect - 2019.04.19 at 19h 15m 03s.xml">
+      <configuration name="DataCollectorShould.HaveAURLToConnect" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DataCollectorShould_HaveConnectivity - 2019.04.19 at 19h 15m 29s.xml">
+      <configuration name="DataCollectorShould.HaveConnectivity" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DataCollectorShould_HaveConnectivity - 2019.04.19 at 19h 40m 36s.xml">
+      <configuration name="DataCollectorShould.HaveConnectivity" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DataCollectorShould_HaveAURLToConnect - 2019.04.21 at 13h 27m 56s.xml">
+      <configuration name="DataCollectorShould.HaveAURLToConnect" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DataCollectorShould_HaveConnectivity - 2019.04.21 at 13h 30m 07s.xml">
+      <configuration name="DataCollectorShould.HaveConnectivity" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DataCollectorShould_HaveAURLToConnect - 2019.04.21 at 13h 37m 09s.xml">
+      <configuration name="DataCollectorShould.HaveAURLToConnect" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DataCollectorShould_HaveAURLToConnect - 2019.04.21 at 13h 37m 43s.xml">
+      <configuration name="DataCollectorShould.HaveAURLToConnect" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DataCollectorShould_HaveConnectivity - 2019.04.21 at 13h 40m 41s.xml">
+      <configuration name="DataCollectorShould.HaveConnectivity" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="974" height="1057" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25929978" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.37308535" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.3290461" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" weight="0.32900432" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32900432" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.41774893" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33116883" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4169346" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3290461" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32900432" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32900432" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Data Collector, first approach" />
+    <option name="LAST_COMMIT_MESSAGE" value="Data Collector, first approach" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/GasolinePrice.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataCollector.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
-          <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+        <state relative-caret-position="187">
+          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Home.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GasStation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DataCollector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DataCollectorShould.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54e38765-4e44-4a2c-90bf-e8cfe2a3b46c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/DataCollector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DataCollector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DataCollectorShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DataCollectorShould.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,11 +17,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/GasStation.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="13" selection-start-column="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/DataCollector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="2" selection-start-column="2" selection-end-column="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/DataCollectorShould.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -68,7 +90,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="953" />
+    <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1057" />
   </component>
@@ -80,6 +102,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -126,8 +150,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -156,10 +178,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DataCollectorShould.HaveConnectivity">
+  <component name="RunManager" selected="JUnit.DataCollectorShould">
     <configuration name="DataCollector" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="DataCollector" />
       <module name="GasolinePrice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataCollectorShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GasolinePrice" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DataCollectorShould" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -188,9 +219,11 @@
       <item itemvalue="Application.DataCollector" />
       <item itemvalue="JUnit.DataCollectorShould.HaveAURLToConnect" />
       <item itemvalue="JUnit.DataCollectorShould.HaveConnectivity" />
+      <item itemvalue="JUnit.DataCollectorShould" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DataCollectorShould" />
         <item itemvalue="JUnit.DataCollectorShould.HaveConnectivity" />
         <item itemvalue="JUnit.DataCollectorShould.HaveAURLToConnect" />
       </list>
@@ -264,7 +297,8 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1057" extended-state="0" />
+    <frame x="-7" y="0" width="974" height="1057" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.37308535" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -314,27 +348,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MainRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DataCollector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MainRequest.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/DataCollectorShould.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="12" selection-end-column="5" />
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -345,6 +363,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DataCollector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

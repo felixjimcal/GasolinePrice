@@ -1,17 +1,25 @@
+
 import java.net.HttpURLConnection;
 import java.net.URL;
 
 class DataCollector {
-    private static HttpURLConnection urlConn;
+    static String URL = "";
 
-    public static String DataCollected;
-    static
+    public static String getURL() {
+        return URL;
+    }
+
+    public static void setURL(String URLToConnect) {
+        URL = URLToConnect;
+    }
 
     public static boolean CheckConnection() {
         boolean result = false;
+
+        HttpURLConnection urlConn = null;
         try
         {
-            URL url = new URL(URL);
+            URL url = new URL(DataCollector.getURL());
             urlConn = (HttpURLConnection) url.openConnection();
             urlConn.connect();
 
@@ -29,10 +37,5 @@ class DataCollector {
         }
 
         return result;
-    }
-
-    public CollectData()
-    {
-
     }
 }

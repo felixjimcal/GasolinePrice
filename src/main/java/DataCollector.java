@@ -66,15 +66,11 @@ class DataCollector {
     {
         DataCollector.setURL(url);
 
-        String response = "";
+        String response = "No data collected";
 
         if(CheckConnection())
         {
             response = requestData;
-        }
-        else
-        {
-            response = "No data collected";
         }
 
         return response;

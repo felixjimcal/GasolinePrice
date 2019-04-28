@@ -5,12 +5,12 @@ import java.util.List;
 
 public class DataManager {
 
-    public static List GetEstacionesTerrestres(String data) {
+    public static EstacionesTerrestres GetEstacionesTerrestres(String data) {
 
-        // Gson gson = new Gson();
-        // EstacionTerrestre[] arraya = gson.fromJson(data, EstacionTerrestre[].class);
+        Gson gson = new Gson();
+        EstacionesTerrestres arraya = gson.fromJson(data, EstacionesTerrestres.class);
 
-        return null;
+        return arraya;
     }
 
     public static List GetComunidadesAutonomas(String data) {

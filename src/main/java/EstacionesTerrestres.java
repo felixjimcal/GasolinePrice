@@ -1,6 +1,9 @@
 import java.util.List;
 
 public class EstacionesTerrestres {
+    String Fecha;
+
+    List ListaEESSPrecio;
 
     public String getFecha() {
         return Fecha;
@@ -10,14 +13,12 @@ public class EstacionesTerrestres {
         Fecha = fecha;
     }
 
-    public List<EstacionTerrestre> getListaEESSPrecio() {
+    public List getListaEESSPrecio() {
         return ListaEESSPrecio;
     }
 
-    public void setListaEESSPrecio(List<EstacionTerrestre> listaEESSPrecio) {
+    public void setListaEESSPrecio(List listaEESSPrecio) {
         ListaEESSPrecio = listaEESSPrecio;
     }
 
-    String Fecha;
-    List<EstacionTerrestre> ListaEESSPrecio;
 }

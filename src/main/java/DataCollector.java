@@ -1,9 +1,14 @@
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
 class DataCollector {
     static String URL = "";
+    static HttpURLConnection urlConn = null;
+    private static String requestData;
 
     public static String getURL() {
         return URL;
@@ -16,16 +21,20 @@ class DataCollector {
     public static boolean CheckConnection() {
         boolean result = false;
 
-        HttpURLConnection urlConn = null;
         try
         {
             URL url = new URL(DataCollector.getURL());
             urlConn = (HttpURLConnection) url.openConnection();
+            urlConn.setRequestMethod("GET");
+            urlConn.setRequestProperty("Accept","application/json");
+            urlConn.setRequestProperty("Content-Type","application/json");
             urlConn.connect();
 
             if(urlConn.getResponseCode() == HttpURLConnection.HTTP_OK)
             {
                 result = true;
+
+                ReadResponse();
             }
 
         } catch (Exception ex) {
@@ -37,5 +46,37 @@ class DataCollector {
         }
 
         return result;
+    }
+
+    private static void ReadResponse() throws IOException {
+        BufferedReader in = new BufferedReader(new InputStreamReader(urlConn.getInputStream()));
+        String inputLine;
+        StringBuffer response = new StringBuffer();
+
+        while ((inputLine = in.readLine()) != null) {
+            response.append(inputLine);
+        }
+
+        requestData = response.toString();
+
+        in.close();
+    }
+
+    public static String GetData(String url )
+    {
+        DataCollector.setURL(url);
+
+        String response = "";
+
+        if(CheckConnection())
+        {
+            response = requestData;
+        }
+        else
+        {
+            response = "No data collected";
+        }
+
+        return response;
     }
 }

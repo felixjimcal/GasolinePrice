@@ -1,4 +1,6 @@
-public class ComunidadesAutonomas {
+package Models;
+
+public class ComunidadAutonoma {
 
     public String getCCAA() {
         return CCAA;

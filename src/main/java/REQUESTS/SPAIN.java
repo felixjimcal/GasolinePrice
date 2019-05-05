@@ -4,6 +4,9 @@ public enum SPAIN {
 
     EstacionesTerrestres("https://sedeaplicaciones.minetur.gob.es/ServiciosRESTCarburantes/PreciosCarburantes/EstacionesTerrestres/"),
     EstacionesTerrestresFiltroCCAA("https://sedeaplicaciones.minetur.gob.es/ServiciosRESTCarburantes/PreciosCarburantes/EstacionesTerrestres/FiltroCCAA/"),
+    EstacionesTerrestresFiltroCCAAProducto("https://sedeaplicaciones.minetur.gob.es/ServiciosRESTCarburantes/PreciosCarburantes/EstacionesTerrestres/FiltroCCAAProducto/"),
+
+
     ComunidadesAutonomas("https://sedeaplicaciones.minetur.gob.es/ServiciosRESTCarburantes/PreciosCarburantes/Listados/ComunidadesAutonomas/");
     private String url;
 

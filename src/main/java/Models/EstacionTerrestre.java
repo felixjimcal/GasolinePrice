@@ -1,3 +1,5 @@
+package Models;
+
 public class EstacionTerrestre {
     public String getCP() {
         return CP;
@@ -223,6 +225,14 @@ public class EstacionTerrestre {
         this.IDCCAA = IDCCAA;
     }
 
+    public String getPrecioProducto() {
+        return PrecioProducto;
+    }
+
+    public void setPrecioProducto(String precioProducto) {
+        PrecioProducto = precioProducto;
+    }
+
     String CP;
     String Direccion;
     String Horario;
@@ -241,6 +251,7 @@ public class EstacionTerrestre {
     String Precio_Gasolina_95_Proteccion;
     String Precio_Gasolina_98;
     String Precio_Nuevo_Gasoleo_A;
+    String PrecioProducto;
     String Provincia;
     String Remision;
     String Rotulo;

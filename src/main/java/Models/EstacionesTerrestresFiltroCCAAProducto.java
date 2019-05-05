@@ -1,6 +1,9 @@
+package Models;
+
 import java.util.List;
 
-public class EstacionesTerrestres {
+public class EstacionesTerrestresFiltroCCAAProducto {
+
     String Fecha;
 
     List ListaEESSPrecio;
@@ -20,5 +23,4 @@ public class EstacionesTerrestres {
     public void setListaEESSPrecio(List listaEESSPrecio) {
         ListaEESSPrecio = listaEESSPrecio;
     }
-
 }

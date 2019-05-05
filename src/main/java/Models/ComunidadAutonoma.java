@@ -18,5 +18,5 @@ public class ComunidadAutonoma {
         this.IDCCAA = IDCCAA;
     }
 
-    String IDCCAA, CCAA;
+    String IDMunicipio, IDProvincia, IDCCAA, Municipio, Provincia, CCAA;
 }

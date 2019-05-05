@@ -233,33 +233,5 @@ public class EstacionTerrestre {
         PrecioProducto = precioProducto;
     }
 
-    String CP;
-    String Direccion;
-    String Horario;
-    String Latitud;
-    String Localidad;
-    String Longitud;
-    String Margen;
-    String Municipio;
-    String Precio_Biodiesel;
-    String Precio_Bioetanol;
-    String Precio_Gas_Natural_Comprimido;
-    String Precio_Gas_Natural_Licuado;
-    String Precio_Gases_licuados_Petroleo;
-    String Precio_Gasoleo_A;
-    String Precio_Gasoleo_B;
-    String Precio_Gasolina_95_Proteccion;
-    String Precio_Gasolina_98;
-    String Precio_Nuevo_Gasoleo_A;
-    String PrecioProducto;
-    String Provincia;
-    String Remision;
-    String Rotulo;
-    String Tipo_Venta;
-    String BioEtanol;
-    String Ester_metilico;
-    String IDEESS;
-    String IDMunicipio;
-    String IDProvincia;
-    String IDCCAA;
+    String CP, Direccion, Horario, Latitud, Localidad, Longitud, Margen, Municipio, Precio_Biodiesel, Precio_Bioetanol, Precio_Gas_Natural_Comprimido, Precio_Gas_Natural_Licuado, Precio_Gases_licuados_Petroleo, Precio_Gasoleo_A, Precio_Gasoleo_B, Precio_Gasolina_95_Proteccion, Precio_Gasolina_98, Precio_Nuevo_Gasoleo_A, PrecioProducto, Provincia, Remision, Rotulo, Tipo_Venta, BioEtanol, Ester_metilico, IDEESS, IDMunicipio, IDProvincia, IDCCAA;
 }
